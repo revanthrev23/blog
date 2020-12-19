@@ -1,0 +1,14 @@
+1) I am using the https://jsonplaceholder.typicode.com/posts API to get posts data . It contains 100 blogs with various fields like userId, id(postsId), title and body.
+2) This project is completely built using ReactJS. 
+3) localhost:3000 is the url which shows or lists all the posts. (LIST ALL POSTS)
+4) localhost:3000/post/${id} opens the post corresponding to the 'id' value.
+5) localhost:3000/edit/${id} edits the post corresponding to the 'id' value.
+6) Delete does not have any url as it is taken care in a modal.
+7) localhost:3000/create is used to create a new blog post.
+
+This is how the CRUD operation is implemented in the server.
+
+Instead of navigating using url, the users can even navigate using the buttons present in the UI to achieve the same functionalities listed above. 
+
+8) Sorting functionality with respect to id is added.
+
